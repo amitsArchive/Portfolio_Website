@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/9daf0af167.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Front-End Developer</p>
+            <h1>Hi, I'm <span>Amit Sharma</span><br> from India</h1>
+        </div>
+    </div>
+   </div>
+
+   <!-- About Section -->
+   <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./assets/images/user.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, velit voluptatem alias nobis culpa ipsam veniam eligendi, nam eos atque veritatis itaque qui, sequi cumque adipisci amet modi accusantium dicta.</p>
+                    
+                    <div class="tab-container">
+                        <div class="tab-card">
+                            <div class="tab-header">
+                                <h3>Skills</h3>
+                            </div>
+                            <div class="tab-content">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                    <li><span>Web Development</span><br>Building Web apps</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tab-card">
+                            <div class="tab-header">
+                                <h3>Education</h3>
+                            </div>
+                            <div class="tab-content">
+                                <ul>
+                                    <li><span>Bachelor</span><br>in Computer Applications</li>
+                                    <li><span>Masters</span><br>in Computer Applications</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tab-card">
+                            <div class="tab-header">
+                                <h3>Experience</h3>
+                            </div>
+                            <div class="tab-content">
+                                <ul>
+                                    <li><span>Fresher</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <!-- Services Section -->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-google-play"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- portfolio start -->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./assets/images/work-1.png" alt="work1">
+                <h2>Social Media App</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="work">
+                <img src="./assets/images/work-2.png" alt="work2">
+                <h2>Music App</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="work">
+                <img src="./assets/images/work-3.png" alt="work3">
+                <h2>Online Shopping App</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- portfolio end -->
+   <!-- Contact Section -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> amit.sharma.96677@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9667785689</p>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/amitsharma9718" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/amitsArchive" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="./assets/images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
